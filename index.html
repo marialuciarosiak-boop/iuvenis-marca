@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Iuvenis · Manual de Marca</title>
+<meta name="description" content="Manual de marca e design system da Iuvenis (outubro de 2026).">
+<link rel="icon" href="assets/logo-symbol-ocean.png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--ocean:#005f8d;--petrol:#02324a;--mist:#d9d9d9;--areia:#a89883;--sky:#e9f2fe}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;font-family:Poppins,system-ui,sans-serif;background:var(--ocean) url(assets/dotmap-white.png) center/cover no-repeat;color:#fff;display:grid;place-items:center;padding:40px 16px}
+  main{max-width:760px;width:100%}
+  .logo{height:44px;margin-bottom:40px}
+  h1{font-weight:300;font-size:clamp(36px,6vw,64px);line-height:1.1;margin:0 0 16px}
+  h1 b{font-weight:700}
+  p{font-size:18px;line-height:1.6;margin:0 0 32px;color:#e9f2fe}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+  a.card{display:block;text-decoration:none;border-radius:16px;padding:24px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.22);color:#fff;transition:background .25s}
+  a.card:hover{background:rgba(255,255,255,.18)}
+  a.card.destaque{background:var(--areia);border-color:var(--areia);color:var(--petrol)}
+  a.card strong{display:block;font-weight:600;font-size:20px;margin-bottom:6px}
+  a.card span{font-size:14px;line-height:1.5;opacity:.9}
+  footer{margin-top:40px;font-size:13px;color:#e9f2fe;opacity:.8}
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="assets/logo-wordmark-white.png" alt="iuvenis">
+  <h1>Manual de <b>Marca</b></h1>
+  <p><b>Logotipo, cores, tipografia, elementos, fotografia, ícones, tom de voz e modelos.</b> A versão de outubro de 2026 é a referência para todo material da Iuvenis.</p>
+  <div class="cards">
+    <a class="card destaque" href="Iuvenis%20Guia%20de%20Marca.html"><strong>Abrir o guia</strong><span>88 slides navegáveis. Use as setas do teclado.</span></a>
+    <a class="card" href="pdf/Iuvenis%20Guia%20de%20Marca.pdf"><strong>Baixar em PDF</strong><span>Versão completa para enviar ou imprimir.</span></a>
+    <a class="card" href="https://github.com/marialuciarosiak-boop/iuvenis-marca"><strong>Arquivos da marca</strong><span>Logos, ícones, ilustrações, tokens CSS e componentes.</span></a>
+  </div>
+  <footer>Dúvidas sobre a marca? @iuvenisoficial</footer>
+</main>
+</body>
+</html>
