@@ -187,9 +187,12 @@ section{padding:110px 0}
 .pl h3{font-size:22px;font-weight:300;line-height:1.2}
 .pl h3 b{display:block}
 .pl.top h3{color:#fff}
-.pl .pr{font-size:46px;font-weight:700;color:var(--petrol);letter-spacing:-.03em;margin-top:22px;line-height:1}
+.pl .pr small{display:block;font-size:15px;font-weight:500;letter-spacing:0;margin-bottom:6px;opacity:.75}
+.pl .pr{white-space:nowrap;font-size:46px;font-weight:700;color:var(--petrol);letter-spacing:-.03em;margin-top:22px;line-height:1}
 .pl.top .pr{color:#fff}
-.pl .x{font-size:13px;color:var(--muted);margin:8px 0 24px}
+.pl .x{font-size:14.5px;color:var(--muted);margin:10px 0 24px}
+.pl .x b{color:var(--petrol)}
+.pl.top .x b{color:#fff}
 .pl.top .x{color:rgba(255,255,255,.7)}
 .pl ul{list-style:none;display:flex;flex-direction:column;gap:11px;font-size:14.5px;flex:1;padding-top:22px;border-top:1px solid var(--line)}
 .pl.top ul{border-color:rgba(255,255,255,.18)}
@@ -205,7 +208,8 @@ table{width:100%;border-collapse:collapse;min-width:720px;font-size:14.5px}
 th,td{padding:16px 20px;text-align:center;border-bottom:1px solid var(--line)}
 th:first-child,td:first-child{text-align:left;color:var(--petrol)}
 thead th{font-weight:600;color:var(--petrol);background:#F7F9FC}
-thead th small{display:block;font-weight:700;font-size:18px;color:var(--ocean)}
+thead th small{display:block;font-weight:700;font-size:18px;color:var(--ocean);white-space:nowrap}
+thead th em{display:block;font-style:normal;font-weight:400;font-size:12.5px;color:var(--muted)}
 td.a,th.a{background:rgba(0,95,141,.05)}
 td i.ok{color:var(--ocean);font-size:20px}
 td i.no{color:#C3CBD6;font-size:20px}
@@ -529,7 +533,7 @@ footer a{color:#fff}
     <div class="pg">
       <div class="pl rv">
         <h3>Plano de entrada<b>Passaporte Iuvenis</b></h3>
-        <div class="pr">R$ 997</div><div class="x">Em até 12x no cartão ou Pix</div>
+        <div class="pr"><small>12x de</small>R$ 103,08</div><div class="x">ou <b>R$ 997</b> à vista no Pix</div>
         <ul>
           <li><i class="ph-fill ph-check-circle"></i>+150h de aulas</li>
           <li><i class="ph-fill ph-check-circle"></i>Banco com +1.500 bolsas</li>
@@ -543,7 +547,7 @@ footer a{color:#fff}
       </div>
       <div class="pl rv">
         <h3>Mentoria<b>Classe Executiva</b></h3>
-        <div class="pr">R$ 3.497</div><div class="x">Em até 12x no cartão ou Pix</div>
+        <div class="pr"><small>12x de</small>R$ 361,58</div><div class="x">ou <b>R$ 3.497</b> à vista no Pix</div>
         <ul>
           <li><i class="ph-fill ph-check-circle"></i>Tudo da plataforma por 12 meses</li>
           <li><i class="ph-fill ph-check-circle"></i>+50 guias completos</li>
@@ -557,7 +561,7 @@ footer a{color:#fff}
       <div class="pl top rv">
         <span class="tag">Vagas limitadas</span>
         <h3>Mentoria<b>Primeira Classe</b></h3>
-        <div class="pr">R$ 6.997</div><div class="x">Em até 12x no cartão ou Pix</div>
+        <div class="pr"><small>12x de</small>R$ 723,48</div><div class="x">ou <b>R$ 6.997</b> à vista no Pix</div>
         <ul>
           <li><i class="ph-fill ph-check-circle"></i>Tudo da plataforma, com acesso vitalício</li>
           <li><i class="ph-fill ph-check-circle"></i>+50 guias completos</li>
@@ -574,7 +578,7 @@ footer a{color:#fff}
       <h3 style="font-size:clamp(26px,3vw,36px)">Compare <b>lado a lado</b></h3>
       <div class="tbl">
         <table>
-          <thead><tr><th></th><th>Passaporte<small>R$ 997</small></th><th>Classe Executiva<small>R$ 3.497</small></th><th class="a">Primeira Classe<small>R$ 6.997</small></th></tr></thead>
+          <thead><tr><th></th><th>Passaporte<small>12x R$ 103,08</small><em>ou R$ 997 à vista</em></th><th>Classe Executiva<small>12x R$ 361,58</small><em>ou R$ 3.497 à vista</em></th><th class="a">Primeira Classe<small>12x R$ 723,48</small><em>ou R$ 6.997 à vista</em></th></tr></thead>
           <tbody>
             <tr><td>150h de aulas com mais de 15 mentores</td><td><i class="ph-fill ph-check-circle ok"></i></td><td><i class="ph-fill ph-check-circle ok"></i></td><td class="a"><i class="ph-fill ph-check-circle ok"></i></td></tr>
             <tr><td>Banco com +1.500 bolsas catalogadas</td><td><i class="ph-fill ph-check-circle ok"></i></td><td><i class="ph-fill ph-check-circle ok"></i></td><td class="a"><i class="ph-fill ph-check-circle ok"></i></td></tr>
