@@ -7,7 +7,7 @@ function Hero() {
     <div style={{ color: '#fff', fontSize: 18, fontWeight: 500 }}>O que te espera aqui:</div>
     <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0,1fr) minmax(0,1.05fr) minmax(0,1fr)', maxWidth: 820, width: '100%', alignItems: 'center', filter: 'drop-shadow(0 24px 40px rgba(2,50,74,.35))' }}>
       <div style={{ background: 'var(--mist-300)', borderRadius: '16px 0 0 16px', padding: '28px 20px', display: 'flex', flexDirection: 'column', gap: 28 }}>
-        <FeatureCard icon="play" title="200+ Horas de Aulas" description="Todo o conteúdo de documentação, cartas e estratégia organizado do zero ao avançado" style={{ boxShadow: 'none', padding: 0, background: 'transparent' }} />
+        <FeatureCard icon="play" title="150h de Aulas" description="Todo o conteúdo de documentação, cartas e estratégia organizado do zero ao avançado" style={{ boxShadow: 'none', padding: 0, background: 'transparent' }} />
         <FeatureCard icon="path" title="Histórias Reais" description="Aprenda com mentores e alunos aprovados nas melhores universidades do mundo, como Yale e Stanford" style={{ boxShadow: 'none', padding: 0, background: 'transparent' }} />
       </div>
       <div style={{ background: 'var(--sand-500)', borderRadius: 16, padding: '44px 24px', display: 'flex', flexDirection: 'column', gap: 28, alignItems: 'center', position: 'relative', zIndex: 1 }}>
@@ -58,7 +58,7 @@ function Alunos() {
   </section>;
 }
 
-const MEMB = [['play', '200h+ de conteúdo', 'Vídeo-aulas, módulos estratégicos e masterclasses gravadas. Acesse quando e quantas vezes quiser.'],
+const MEMB = [['play', '150h de conteúdo', 'Vídeo-aulas, módulos estratégicos e masterclasses gravadas. Acesse quando e quantas vezes quiser.'],
   ['diamond', 'Área de membros exclusiva', 'Plataforma dedicada com todo o material organizado por trilha, nível e tipo de programa.'],
   ['target', 'Comunidade ativa', 'Interação com outros candidatos e alunos aprovados. Troca real de experiências e suporte entre pares.'],
   ['square', 'Modelos de documentos', 'Templates de essays, cartas de motivação, CVs americanos e formulários financeiros prontos para adaptar.'],

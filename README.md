@@ -106,11 +106,9 @@ Frase-guia: **"Ocean é a cor da marca. Mist organiza, Areia destaca, Petrol esc
    - **Sugestão:**
      - manter a Areia `#A89883` nos fundos e escrever em **Petrol** sobre ela (4,8:1);
      - ou criar uma **"Areia escura" `#7E7262`** só para cartões com texto branco (4,7:1).
-2. **Domínio.** O slide 80 usa "iuvenis.com.br", mas o site em uso é **iuvenisoficial.com**.
-3. **Números.**
-   - O guia fala em **"200+ horas de aulas"**; a planilha de planos e as ofertas falam em **"150h de aulas práticas"**.
-   - Definir um número só e usar em todo lugar.
-4. **Manual antigo no site.** A página iuvenisoficial.com/manualdamarca ainda mostra a versão anterior, com azul `#0A1530` como cor principal, fonte Manrope e dourado de accent. Ela contradiz este guia e deve ser substituída.
+2. ~~Domínio~~ **Resolvido em 25/10:** o domínio oficial é **iuvenisoficial.com**, já corrigido no guia.
+3. ~~Números~~ **Resolvido em 25/10:** o número oficial é **150h de aulas**, já corrigido no guia e nos componentes.
+4. **Manual no site:** desde 25/10, iuvenisoficial.com/manualdamarca mostra este guia. As imagens e os scripts vêm do GitHub Pages.
 5. **Emojis.** O guia diz "sem emojis em materiais da marca" e, nas redes, "até um emoji no fim do gancho". Vale a regra: zero em site, PDF, e-mail e apresentações; até um em posts.
 
 ## Como usar em código

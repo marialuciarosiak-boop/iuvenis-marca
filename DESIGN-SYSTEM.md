@@ -14,7 +14,7 @@ Only screenshots and logo PNGs uploaded by the user (no Figma, no codebase). Cop
 ## Content fundamentals
 - **Language:** Brazilian Portuguese, informal "você". The brand speaks as "nós" ("nós garimpamos", "que recomendamos").
 - **Tone:** close mentor, confident, slightly colloquial — "entregamos **mastigado** para você", "saíram do **absoluto zero**", "vivem o sonho internacional".
-- **Proof over hype:** concrete numbers and names — "200+ Horas de Aulas", "mais de 40 tipos de intercâmbio", "Yale e Stanford", "10 melhores oportunidades da quinzena".
+- **Proof over hype:** concrete numbers and names — "150h de Aulas", "mais de 40 tipos de intercâmbio", "Yale e Stanford", "10 melhores oportunidades da quinzena".
 - **Headline pattern:** a plain lead + highlighted payoff. "Um **Banco de Oportunidades** que nunca para", "Tudo o que você precisa. *Em um único lugar.*", "Em que momento **você está?**".
 - **Body pattern:** bold first sentence (the hook) followed by regular explanation.
 - **Casing:** Title Case for card titles on the site ("Modelos de Documentos"); sentence case in premium/app ("Modelos de documentos").
