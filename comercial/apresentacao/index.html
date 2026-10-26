@@ -55,7 +55,7 @@ section{padding:110px 0}
 .stage .ph,.stage .cut{position:absolute;left:0;top:0;width:100%}
 .stage .ph{height:100%;object-fit:cover}
 .stage .cut{height:auto}
-.stage .word{position:absolute;left:0;right:0;top:3.6%;text-align:center;font-weight:800;font-size:19.8vw;line-height:1;letter-spacing:-.03em;color:#fff;animation:sobe 1.2s .1s both cubic-bezier(.2,.7,.2,1)}
+.stage .word{position:absolute;left:0;right:0;top:3.6%;text-align:center;font-weight:800;font-size:18.5vw;line-height:1;letter-spacing:-.03em;color:#fff;animation:sobe 1.2s .1s both cubic-bezier(.2,.7,.2,1)}
 .stage .tint{position:absolute;inset:0 0 auto 0;height:52%;background:linear-gradient(180deg,rgba(2,50,74,.45),rgba(2,50,74,0))}
 .stage .fade{position:absolute;inset:auto 0 0 0;height:60%;background:linear-gradient(0deg,rgba(2,50,74,.95),rgba(2,50,74,0))}
 .hero-txt{position:absolute;left:0;right:0;bottom:7%}
@@ -230,10 +230,11 @@ details p{padding:0 44px 24px 0;color:var(--muted);font-size:15.5px}
 .ps h3{color:#fff;font-size:20px;font-weight:600;margin:16px 0 6px}
 .ps p{font-size:14.5px;color:rgba(255,255,255,.78)}
 .fim{padding:0;position:relative;color:#fff;background:var(--petrol);overflow:hidden}
-.fim .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
-.fim .ov{position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,50,74,.95) 0%,rgba(2,50,74,.6) 60%,rgba(2,50,74,.3) 100%)}
-.fim .wrap{position:relative;padding-top:130px;padding-bottom:130px}
-.fim h2{color:#fff;font-size:clamp(34px,4.4vw,60px);max-width:800px}
+.fim .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:30% 50%;opacity:.7}
+.fim .ov{position:absolute;inset:0;background:linear-gradient(270deg,rgba(2,50,74,.96) 0%,rgba(2,50,74,.85) 42%,rgba(2,50,74,.15) 72%,rgba(2,50,74,0) 100%)}
+.fim .wrap{position:relative;padding-top:130px;padding-bottom:130px;display:flex;justify-content:flex-end}
+.fim .txt{max-width:560px}
+.fim h2{color:#fff;font-size:clamp(32px,3.6vw,50px)}
 .fim .fr{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:clamp(24px,2.6vw,34px);margin:22px 0 40px;color:#fff}
 .fim .cta{display:flex;gap:12px;flex-wrap:wrap}
 footer{background:#011F2E;color:rgba(255,255,255,.6);font-size:13px;padding:34px 0}
@@ -284,6 +285,9 @@ footer a{color:#fff}
   .caso{padding:14px}
   .tl{padding-right:6px}
   .tira img:nth-child(2){transform:none}
+  .fim .bg{position:relative;height:300px;opacity:1}
+  .fim .ov{display:none}
+  .fim .wrap{padding-top:44px;padding-bottom:64px;display:block}
 }
 </style>
 </head>
@@ -309,7 +313,6 @@ footer a{color:#fff}
     <img class="ph" src="img/wide-montanha.jpg" alt="Maria Lucia nas montanhas">
     <div class="tint"></div>
     <span class="word" aria-hidden="true">iuvenis</span>
-    <img class="cut" src="img/wide-montanha-recorte-v2-top.png" alt="">
     <div class="fade"></div>
   </div>
   <div class="hero-txt">
@@ -596,7 +599,7 @@ footer a{color:#fff}
     <div class="rv">
       <span class="k">Perguntas frequentes</span>
       <h2 class="h2">Antes de <b>decidir</b></h2>
-      <p class="lead">Ficou alguma dúvida? Fale com a pessoa da nossa equipe que está conversando com você.</p>
+      <p class="lead">Ficou alguma dúvida? <a href="https://wa.me/5565992450333?text=Ol%C3%A1!%20Vim%20pela%20p%C3%A1gina%20dos%20planos%20da%20Iuvenis." target="_blank" rel="noopener" style="color:var(--ocean);font-weight:600;text-decoration:underline">Fale com a nossa equipe pelo WhatsApp.</a></p>
     </div>
     <div class="rv">
       <details><summary>E se meu inglês não for fluente?</summary><p>Muitos programas aceitam candidatos com inglês intermediário e não cobram teste de proficiência. Na plataforma temos módulos específicos sobre o tema, com poliglotas e materiais de estudo.</p></details>
@@ -624,14 +627,14 @@ footer a{color:#fff}
 <section class="fim">
   <img class="bg" src="img/wide-capetown.jpg" alt="" loading="lazy">
   <div class="ov"></div>
-  <div class="wrap">
+  <div class="wrap"><div class="txt">
     <h2>Do interior do Brasil para as melhores <b>universidades do mundo.</b></h2>
     <p class="fr">Com método, e com a gente do seu lado.</p>
     <div class="cta">
       <a class="btn btn-w" href="#planos">Escolher o meu plano</a>
-      <a class="btn btn-l" href="https://www.instagram.com/iuvenisoficial/" target="_blank" rel="noopener">Falar com a equipe</a>
+      <a class="btn btn-l" href="https://wa.me/5565992450333?text=Ol%C3%A1!%20Vim%20pela%20p%C3%A1gina%20dos%20planos%20da%20Iuvenis." target="_blank" rel="noopener"><i class="ph-fill ph-whatsapp-logo"></i> Falar com a equipe</a>
     </div>
-  </div>
+  </div></div>
 </section>
 
 <footer>
