@@ -1,0 +1,20 @@
+<!-- @dsCard group="Components" viewport="700x400" name="Cards" -->
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css"><script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script><script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script><script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
+<script type="text/babel" src="../ds-browser.jsx"></script><style>body{margin:0;font-family:var(--font-sans)}</style></head><body><div id="r"></div>
+<script type="text/babel">
+const NS = window.IuvenisDS || {};
+const { FeatureCard, PhotoCard } = NS;
+ReactDOM.createRoot(document.getElementById('r')).render(<div>
+  <div style={{ background: 'var(--ocean-600)', padding: 20, display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 12 }}>
+    <FeatureCard icon="play" title="200+ Horas de Aulas" description="Todo o conteúdo organizado do zero ao avançado" />
+    <FeatureCard icon="users-three" tone="warm" title="Banco de Oportunidades" description="Listas de programas que recomendamos" />
+    <FeatureCard icon="target" tone="brand" title="Aulas Práticas" description="Como encontrar as melhores oportunidades" />
+    <div style={{ display: 'flex', gap: 8 }}><PhotoCard height={180} label="Coimbra" sublabel="Universidade" style={{ flex: 1 }} /></div>
+  </div>
+  <div style={{ background: 'var(--navy-950)', display: 'grid', gridTemplateColumns: 'repeat(2,1fr)' }}>
+    <FeatureCard tone="premium" icon="play" title="200h+ de conteúdo" description="Vídeo-aulas, módulos estratégicos e masterclasses gravadas." style={{ borderRight: '1px solid var(--border-on-dark)' }} />
+    <FeatureCard tone="premium" icon="sparkle" title="IuNews · curadoria quinzenal" description="As 10 melhores oportunidades abertas, direto no seu WhatsApp." />
+  </div>
+</div>);
+</script></body></html>

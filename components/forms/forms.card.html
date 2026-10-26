@@ -1,0 +1,16 @@
+<!-- @dsCard group="Components" viewport="700x330" name="Forms" -->
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css"><script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script><script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script><script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
+<script type="text/babel" src="../ds-browser.jsx"></script><style>body{margin:0;font-family:var(--font-sans)}</style></head><body><div id="r"></div>
+<script type="text/babel">
+const NS = window.IuvenisDS || {};
+const { OptionCard, ProgressSteps, TextInput } = NS;
+function Demo() { const [s, setS] = React.useState(1);
+  return <div style={{ background: 'var(--sky-100)', padding: 22, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 22 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+      {[['graduation-cap','Ensino médio','Quero graduação fora ou intercâmbio'],['book','Na faculdade','Quero intercâmbio, estágio ou pesquisa'],['medal','Já me formei','Quero fazer mestrado fora']].map(([i,t,d],k) => <OptionCard key={k} icon={i} title={t} description={d} selected={s===k} onClick={() => setS(k)} />)}
+    </div>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 18 }}><ProgressSteps total={6} current={2} /><TextInput label="Seu nome" placeholder="Como podemos te chamar?" hint="Usamos só para personalizar seu plano" /></div>
+  </div>; }
+ReactDOM.createRoot(document.getElementById('r')).render(<Demo />);
+</script></body></html>

@@ -1,0 +1,14 @@
+<!-- @dsCard group="Components" viewport="700x220" name="Core" -->
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css"><script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script><script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script><script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
+<script type="text/babel" src="../ds-browser.jsx"></script><style>body{margin:0;font-family:var(--font-sans)}</style></head><body><div id="r"></div>
+<script type="text/babel">
+const NS = window.IuvenisDS || {};
+const { Button, Badge, Icon } = NS;
+const Row = ({ bg, children }) => <div style={{ background: bg, padding: 18, display: 'flex', gap: 12, alignItems: 'center', flexWrap: 'wrap' }}>{children}</div>;
+ReactDOM.createRoot(document.getElementById('r')).render(<div>
+  <Row bg="var(--paper)"><Button>Quero fazer parte</Button><Button variant="sand">Ver planos</Button><Button size="sm">Pequeno</Button><Button disabled>Desabilitado</Button><Badge icon={<Icon name="trophy" size={14} color="var(--gold-500)" />}>0 XP</Badge><Badge tone="ocean">Novo</Badge></Row>
+  <Row bg="var(--navy-950)"><Button variant="premium">Entrar na área de membros</Button><Button variant="outline" style={{ color: '#fff' }}>Saiba mais</Button><Badge tone="gold">IuNews</Badge><Badge tone="dark">Quinzenal</Badge></Row>
+  <Row bg="var(--sky-100)"><div style={{ width: 320 }}><Button variant="app" block iconRight="→">Continuar</Button></div><Icon name="play" size={26} color="var(--petrol-900)" /><Icon name="users-three" size={26} color="var(--petrol-900)" /><Icon name="diamond" weight="light" size={26} color="var(--gold-500)" /></Row>
+</div>);
+</script></body></html>

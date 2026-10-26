@@ -1,0 +1,13 @@
+<!-- @dsCard group="Components" viewport="700x380" name="Layout" -->
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script><script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script><script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
+<script type="text/babel" src="../ds-browser.jsx"></script><style>body{margin:0;font-family:var(--font-sans)}</style></head><body><div id="r"></div>
+<script type="text/babel">
+const NS = window.IuvenisDS || {};
+const { SectionHeading } = NS;
+ReactDOM.createRoot(document.getElementById('r')).render(<div>
+  <div style={{ background: 'var(--mist-300)', padding: 24 }}><SectionHeading title="Um" emphasis="Banco de Oportunidades" inline subtitle="O mundo está cheio de bolsas que ninguém te conta." /></div>
+  <div style={{ background: 'var(--navy-950)', padding: 24 }}><SectionHeading variant="serif" tone="dark" title="Tudo o que você precisa." emphasis="Em um único lugar." /></div>
+  <div style={{ background: 'var(--sky-100)', padding: 24 }}><SectionHeading variant="app" title="Em que momento" emphasis="você está?" /></div>
+</div>);
+</script></body></html>

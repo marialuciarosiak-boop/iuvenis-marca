@@ -1,0 +1,22 @@
+:root {
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 10px 30px rgba(10, 21, 48, 0.12);
+  --shadow-float: 0 24px 60px rgba(2, 50, 74, 0.35);
+  --shadow-option: 0 2px 8px rgba(15, 29, 74, 0.06);
+  --shadow-pill: 0 2px 10px rgba(15, 29, 74, 0.08);
+
+  --gradient-app-cta: linear-gradient(90deg, #a9cbfb 0%, #9fe3f5 100%);
+  --fade-photo: linear-gradient(180deg, rgba(2, 50, 74, 0) 45%, rgba(2, 50, 74, 0.85) 100%);
+  --fade-edge-dark: linear-gradient(90deg, var(--petrol-900) 0%, rgba(2, 50, 74, 0) 12%, rgba(2, 50, 74, 0) 88%, var(--petrol-900) 100%);
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 150ms;
+  --dur-base: 250ms;
+  --dur-slow: 450ms;
+}

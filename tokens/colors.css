@@ -1,0 +1,67 @@
+:root {
+  /* Navy — brand ink (logo) */
+  --navy-950: #0a1530;
+  --navy-900: #0c1834;
+  --navy-800: #0f1d4a;
+  --navy-700: #1b2a55;
+  /* Petrol — deep section backgrounds */
+  --petrol-900: #02324a;
+  --petrol-800: #053d5a;
+  /* Ocean — primary brand blue */
+  --ocean-700: #045c8c;
+  --ocean-600: #005f8d;
+  --ocean-500: #2a7aa3;
+  --ocean-300: #4f788d;
+  /* Gold — premium accent (logo) */
+  --gold-600: #9c743a;
+  --gold-500: #b48a4a;
+  --gold-300: #d4b483;
+  /* Sand — warm highlight cards */
+  --sand-500: #a89883;
+  --sand-400: #b19e85;
+  --sand-100: #ece6dd;
+  /* Neutrals */
+  --mist-300: #d9d9d9;
+  --mist-200: #e6e6e6;
+  --paper: #f7f5f3;
+  --white: #ffffff;
+  --slate-500: #6b7486;
+  --slate-400: #8f97a8;
+  /* App (onboarding/quiz) accents */
+  --sky-50: #f4f8ff;
+  --sky-100: #e9f2fe;
+  --azure-300: #a9cbfb;
+  --azure-500: #2d7ff9;
+  --aqua-300: #9fe3f5;
+
+  /* Semantic */
+  --bg-page: var(--paper);
+  --bg-neutral: var(--mist-300);
+  --bg-brand: var(--ocean-600);
+  --bg-deep: var(--petrol-900);
+  --bg-premium: var(--navy-950);
+  --bg-app: var(--sky-100);
+  --surface-card: var(--white);
+  --surface-card-muted: var(--mist-300);
+  --surface-card-brand: var(--ocean-700);
+  --surface-card-warm: var(--sand-500);
+
+  --text-strong: var(--navy-950);
+  --text-heading: var(--petrol-900);
+  --text-body: #2b3446;
+  --text-muted: var(--slate-500);
+  --text-on-dark: var(--white);
+  --text-on-dark-muted: #a9b4c6;
+  --text-accent: var(--gold-500);
+  --text-app-accent: var(--azure-500);
+
+  --border-subtle: rgba(10, 21, 48, 0.10);
+  --border-on-dark: rgba(255, 255, 255, 0.10);
+  --border-photo: rgba(255, 255, 255, 0.35);
+
+  --action-primary: var(--ocean-600);
+  --action-primary-hover: var(--ocean-700);
+  --action-premium: var(--gold-500);
+  --action-premium-hover: var(--gold-600);
+  --focus-ring: rgba(0, 95, 141, 0.35);
+}
